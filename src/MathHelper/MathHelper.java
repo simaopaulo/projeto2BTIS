@@ -3,7 +3,7 @@ package MathHelper;
 public class MathHelper {
 
     public static int numeroSeguinte(int numero) {
-        return numero+1;
+        return numero + 1;
     }
 
     public static String juntarNome(String nome, String apelido) {
@@ -11,15 +11,28 @@ public class MathHelper {
     }
 
     public static int maior(int[] numeros) {
-        return 1;
+        int maior = numeros[0];
+        for (int num : numeros) {
+            if (num > maior) {
+                maior = num;
+            }
+        }
+        return maior;
     }
 
-    public static int soma(int[] numeros){
-        return 1;
+    public static int soma(int[] numeros) {
+        int soma = 0;
+        for (int num : numeros) {
+            soma += num;
+        }
+        return soma;
     }
 
-    public static int media(double[] numeros){
-        return 1;
+    public static double media(double[] numeros) {
+        double soma = 0;
+        for (double num : numeros) {
+            soma += num;
+        }
+        return soma / numeros.length;
     }
-    
 }
