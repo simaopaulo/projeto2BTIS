@@ -22,4 +22,7 @@ public class MathHelper {
         return 1;
     }
 
+    public static int media22(double[] numeros){
+        return 1;
+    }
 }
