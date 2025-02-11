@@ -22,8 +22,4 @@ public class MathHelper {
         return 1;
     }
 
-    public static int asdasdas(double[] numeros){
-        return 1;
-    }
-
 }
