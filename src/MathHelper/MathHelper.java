@@ -21,4 +21,9 @@ public class MathHelper {
     public static int media(double[] numeros){
         return 1;
     }
+
+    public static int asdasdas(double[] numeros){
+        return 1;
+    }
+
 }
