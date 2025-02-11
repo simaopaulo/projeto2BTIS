@@ -3,11 +3,11 @@ package MathHelper;
 public class MathHelper {
 
     public static int numeroSeguinte(int numero) {
-        return 1;
+        return numero+1;
     }
 
-    public static void juntarNome(String nome, String apelido) {
-        System.out.println(nome + " " + apelido);
+    public static String juntarNome(String nome, String apelido) {
+        return nome + " " + apelido;
     }
 
     public static int maior(int[] numeros) {
